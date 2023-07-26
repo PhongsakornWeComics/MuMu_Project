@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sarabun-Medium.ttf">
+            <string>Sarabun-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="155" id="KGk-i7-Jjw" customClass="ItemNameTextFieldCell" customModule="MuMu_Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ชื่อ " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fd-8f-Hrw">
+                        <rect key="frame" x="20" y="5" width="20.666666666666671" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="wtR-3u-BIJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="270" verticalHuggingPriority="270" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="65b-2z-hMc">
+                        <rect key="frame" x="20" y="30" width="137" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="137" id="Sta-eJ-Gsy"/>
+                            <constraint firstAttribute="height" constant="44" id="rlm-bi-Gsc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="นามสกุล" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1c-GC-17B">
+                        <rect key="frame" x="167" y="5" width="49.333333333333343" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="s9W-3s-Z8I"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cvo-zQ-Crb">
+                        <rect key="frame" x="167" y="30" width="133" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="9H8-rc-9du"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9fd-8f-Hrw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="17K-u8-TkU"/>
+                    <constraint firstAttribute="bottom" secondItem="65b-2z-hMc" secondAttribute="bottom" constant="20" id="2DP-fl-dWp"/>
+                    <constraint firstAttribute="trailing" secondItem="cvo-zQ-Crb" secondAttribute="trailing" constant="20" id="C31-xL-ER7"/>
+                    <constraint firstItem="X1c-GC-17B" firstAttribute="centerY" secondItem="9fd-8f-Hrw" secondAttribute="centerY" id="I3x-ov-XCU"/>
+                    <constraint firstItem="cvo-zQ-Crb" firstAttribute="centerY" secondItem="65b-2z-hMc" secondAttribute="centerY" id="JJU-XA-69b"/>
+                    <constraint firstItem="9fd-8f-Hrw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Srg-DA-2My"/>
+                    <constraint firstItem="65b-2z-hMc" firstAttribute="top" secondItem="9fd-8f-Hrw" secondAttribute="bottom" constant="5" id="VJF-b8-Gz3"/>
+                    <constraint firstItem="X1c-GC-17B" firstAttribute="leading" secondItem="cvo-zQ-Crb" secondAttribute="leading" id="ZyM-8f-dBS"/>
+                    <constraint firstItem="cvo-zQ-Crb" firstAttribute="leading" secondItem="65b-2z-hMc" secondAttribute="trailing" constant="10" id="ao3-4S-jri"/>
+                    <constraint firstItem="65b-2z-hMc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="v3n-XB-pl4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="firstNameTextfield" destination="65b-2z-hMc" id="uXA-1l-UUS"/>
+                <outlet property="lastNameTextfield" destination="cvo-zQ-Crb" id="96r-dX-cyL"/>
+            </connections>
+            <point key="canvasLocation" x="36.641221374045799" y="58.802816901408455"/>
+        </tableViewCell>
+    </objects>
+</document>

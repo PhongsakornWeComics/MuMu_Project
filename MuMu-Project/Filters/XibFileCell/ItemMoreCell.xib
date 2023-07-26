@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sarabun-Regular.ttf">
+            <string>Sarabun-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="101" id="KGk-i7-Jjw" customClass="ItemMoreCell" customModule="MuMu_Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="แสดง" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTI-QL-ZWH">
+                        <rect key="frame" x="144.66666666666666" y="10" width="31" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="TSU-Ek-J0K"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Sarabun-Regular" family="Sarabun" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_dropdown" translatesAutoresizingMaskIntoConstraints="NO" id="lh2-hH-Pdh">
+                        <rect key="frame" x="152" y="35" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="N55-ya-sI4"/>
+                            <constraint firstAttribute="width" constant="16" id="ORv-fq-T4g"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nyj-dk-eFd">
+                        <rect key="frame" x="20" y="61" width="280" height="1"/>
+                        <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="bbY-ph-cXt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dTI-QL-ZWH" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="AQM-eI-BQk"/>
+                    <constraint firstAttribute="bottom" secondItem="Nyj-dk-eFd" secondAttribute="bottom" constant="30" id="J6X-53-wrs"/>
+                    <constraint firstItem="Nyj-dk-eFd" firstAttribute="top" secondItem="lh2-hH-Pdh" secondAttribute="bottom" constant="10" id="Myi-Fk-sE2"/>
+                    <constraint firstAttribute="trailing" secondItem="Nyj-dk-eFd" secondAttribute="trailing" constant="20" id="RNr-P1-gRQ"/>
+                    <constraint firstItem="Nyj-dk-eFd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="T2z-h1-KJo"/>
+                    <constraint firstItem="lh2-hH-Pdh" firstAttribute="top" secondItem="dTI-QL-ZWH" secondAttribute="bottom" constant="5" id="Ua9-zF-yDa"/>
+                    <constraint firstItem="lh2-hH-Pdh" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Yic-hd-mzZ"/>
+                    <constraint firstItem="dTI-QL-ZWH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="wCn-sX-R4a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrowImageView" destination="lh2-hH-Pdh" id="uxv-vi-IMg"/>
+                <outlet property="titleLabel" destination="dTI-QL-ZWH" id="B9N-5i-pL9"/>
+            </connections>
+            <point key="canvasLocation" x="42.748091603053432" y="69.366197183098592"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_dropdown" width="16" height="16"/>
+    </resources>
+</document>

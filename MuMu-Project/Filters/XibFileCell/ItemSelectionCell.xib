@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sarabun-Medium.ttf">
+            <string>Sarabun-Medium</string>
+        </array>
+        <array key="Sarabun-Regular.ttf">
+            <string>Sarabun-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="107" id="KGk-i7-Jjw" customClass="ItemSelectionCell" customModule="MuMu_Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ปัญหา" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIh-cQ-2Hz">
+                        <rect key="frame" x="20" y="10" width="37" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="m5b-mS-dgK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2VB-JC-seo">
+                        <rect key="frame" x="59" y="16" width="8" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="7Rb-Ly-aEm"/>
+                            <constraint firstAttribute="height" constant="8" id="U2Q-Gj-OSc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Sarabun-Medium" family="Sarabun" pointSize="16"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mg5-ND-vnf">
+                        <rect key="frame" x="20" y="35" width="280" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สะเดาะห์เคราะห์" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QW4-3K-7WR">
+                                <rect key="frame" x="43" y="12" width="95" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="gK6-lO-Eac"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sarabun-Regular" family="Sarabun" pointSize="14"/>
+                                <color key="textColor" red="0.27058823529411763" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_category" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-03-7Gk">
+                                <rect key="frame" x="15" y="13" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="ZtJ-qN-CRh"/>
+                                    <constraint firstAttribute="width" constant="18" id="nBz-U0-KYK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_dropdown" translatesAutoresizingMaskIntoConstraints="NO" id="0U0-7x-NhK">
+                                <rect key="frame" x="249" y="14" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="9Gq-fF-p1k"/>
+                                    <constraint firstAttribute="width" constant="16" id="s6E-qN-frR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QW4-3K-7WR" firstAttribute="centerY" secondItem="Mg5-ND-vnf" secondAttribute="centerY" id="GSu-NO-Xsw"/>
+                            <constraint firstItem="lZV-03-7Gk" firstAttribute="leading" secondItem="Mg5-ND-vnf" secondAttribute="leading" constant="15" id="OLu-2H-hUX"/>
+                            <constraint firstItem="lZV-03-7Gk" firstAttribute="centerY" secondItem="Mg5-ND-vnf" secondAttribute="centerY" id="fvT-YL-Whw"/>
+                            <constraint firstAttribute="trailing" secondItem="0U0-7x-NhK" secondAttribute="trailing" constant="15" id="gAD-Fi-RFS"/>
+                            <constraint firstItem="0U0-7x-NhK" firstAttribute="centerY" secondItem="Mg5-ND-vnf" secondAttribute="centerY" id="isY-fk-MXa"/>
+                            <constraint firstItem="QW4-3K-7WR" firstAttribute="leading" secondItem="lZV-03-7Gk" secondAttribute="trailing" constant="10" id="uL4-H6-46I"/>
+                            <constraint firstAttribute="height" constant="44" id="vS5-EU-bnA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qIh-cQ-2Hz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="7OJ-ni-FWA"/>
+                    <constraint firstAttribute="bottom" secondItem="Mg5-ND-vnf" secondAttribute="bottom" constant="15" id="MqX-j5-UWN"/>
+                    <constraint firstItem="2VB-JC-seo" firstAttribute="leading" secondItem="qIh-cQ-2Hz" secondAttribute="trailing" constant="2" id="NtY-yj-esk"/>
+                    <constraint firstItem="Mg5-ND-vnf" firstAttribute="top" secondItem="qIh-cQ-2Hz" secondAttribute="bottom" constant="5" id="ZlX-i9-V3Q"/>
+                    <constraint firstAttribute="trailing" secondItem="Mg5-ND-vnf" secondAttribute="trailing" constant="20" id="cgI-8N-vFg"/>
+                    <constraint firstItem="qIh-cQ-2Hz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="fvf-86-gW6"/>
+                    <constraint firstItem="Mg5-ND-vnf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="jzs-2a-uO1"/>
+                    <constraint firstItem="2VB-JC-seo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="ybg-xk-1rC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="borderView" destination="Mg5-ND-vnf" id="QuF-6X-zle"/>
+                <outlet property="leftImageView" destination="lZV-03-7Gk" id="BoR-ta-UJq"/>
+                <outlet property="markLabel" destination="2VB-JC-seo" id="ziE-r6-9cC"/>
+                <outlet property="nameLabel" destination="QW4-3K-7WR" id="jHJ-CQ-V3a"/>
+                <outlet property="rightImageView" destination="0U0-7x-NhK" id="P4V-fd-YSU"/>
+                <outlet property="titleLabel" destination="qIh-cQ-2Hz" id="un0-gp-sNX"/>
+            </connections>
+            <point key="canvasLocation" x="36.641221374045799" y="41.197183098591552"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_category" width="18" height="18"/>
+        <image name="ic_dropdown" width="16" height="16"/>
+    </resources>
+</document>

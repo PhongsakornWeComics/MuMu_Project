@@ -1,0 +1,6 @@
+framework module Pods_MuMu_Project_MuMu_ProjectUITests {
+  umbrella header "Pods-MuMu-Project-MuMu-ProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
