@@ -1,21 +1,17 @@
 //
-//  ItemLabelDatailCell.swift
+//  ItemTitleSectionCell.swift
 //  MuMu-Project
 //
-//  Created by Phongsakorn Srikate on 8/6/2566 BE.
+//  Created by Phongsakorn Srikate on 2/8/2566 BE.
 //
 
 import UIKit
 
-class ItemLabelDatailCell: UITableViewCell {
-
-    @IBOutlet weak var detailLabel: UILabel!
-    @IBOutlet weak var bgView: UIView! {
-        didSet {
-            bgView.layer.cornerRadius = 17.0
-        }
-    }
+class ItemTitleSectionCell: UITableViewCell {
     
+    @IBOutlet weak var titleImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subTitleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -52,16 +52,33 @@ class MapViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        setStyleGoogleMap()
         setupSearchBarView()
         setUpCirCleLayers()
         mapView.delegate = self
         createAnnotations(locations: self.annotationLocations)
+        
+    }
+    
+    private func setStyleGoogleMap() {
+        do {
+            // Set the map style by passing the URL of the local file.
+            if let styleURL = Bundle.main.url(forResource: "StyleMap", withExtension: "json") {
+              mapView.mapStyle = try GMSMapStyle(contentsOfFileURL: styleURL)
+            } else {
+              NSLog("Unable to find style.json")
+            }
+          } catch {
+            NSLog("One or more of the map styles failed to load. \(error)")
+          }
+
+          self.view = mapView
     }
     
     private func setupSearchBarView() {
         self.view.addSubview(searchBarView)
         searchBarView.translatesAutoresizingMaskIntoConstraints = false
-        let searchBarViewTrailingConstraint = searchBarView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 15)
+        let searchBarViewTrailingConstraint = searchBarView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15)
         let searchBarViewLeadingConstraint = searchBarView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15)
         let searchBarViewBottomConstraint = searchBarView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50)
         let searchBarViewHeightConstraint = searchBarView.heightAnchor.constraint(equalToConstant: 54)
@@ -231,14 +248,15 @@ extension MapViewController: GMSMapViewDelegate {
             self.placeLocationLatitude = marker.layer.latitude
             self.placeLcationLongitude = marker.layer.longitude
             
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "LocationDetailViewController") as! LocationDetailViewController
-            vc.modalPresentationStyle = .overFullScreen
-            vc.modalTransitionStyle = .crossDissolve
-            vc.myLocationLatitude = self.myLocationLatitude
-            vc.myLcationLongitude = self.myLcationLongitude
-            vc.placeLocationLatitude = self.placeLocationLatitude
-            vc.placeLcationLongitude = self.placeLcationLongitude
-            self.present(vc, animated: true)
+            self.performSegue(withIdentifier: "ShowDetailLocation", sender: nil)
+//            let vc = self.storyboard?.instantiateViewController(withIdentifier: "LocationDetailViewController") as! LocationDetailViewController
+//            vc.modalPresentationStyle = .overFullScreen
+//            vc.modalTransitionStyle = .crossDissolve
+//            vc.myLocationLatitude = self.myLocationLatitude
+//            vc.myLcationLongitude = self.myLcationLongitude
+//            vc.placeLocationLatitude = self.placeLocationLatitude
+//            vc.placeLcationLongitude = self.placeLcationLongitude
+//            self.present(vc, animated: true)
             return true
         } else {
             return false

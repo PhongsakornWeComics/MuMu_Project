@@ -24,17 +24,19 @@
 		44751CB32A5738CA00FBE308 /* ItemRememberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44751CB12A5738CA00FBE308 /* ItemRememberCell.xib */; };
 		44751CB62A573C2600FBE308 /* ItemMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44751CB42A573C2600FBE308 /* ItemMoreCell.swift */; };
 		44751CB72A573C2600FBE308 /* ItemMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44751CB52A573C2600FBE308 /* ItemMoreCell.xib */; };
+		4477272F2A717A60002F6991 /* Pods_MuMu_Project_MuMu_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B791ADBC0AD537820B7F6F /* Pods_MuMu_Project_MuMu_ProjectUITests.framework */; };
+		447727302A717A61002F6991 /* Pods_MuMu_Project_MuMu_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B791ADBC0AD537820B7F6F /* Pods_MuMu_Project_MuMu_ProjectUITests.framework */; };
+		447727322A717D5A002F6991 /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447727312A717D5A002F6991 /* Sarabun-Regular.ttf */; };
+		447727332A717D5A002F6991 /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447727312A717D5A002F6991 /* Sarabun-Regular.ttf */; };
+		447727342A717D5A002F6991 /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447727312A717D5A002F6991 /* Sarabun-Regular.ttf */; };
+		447727362A717D71002F6991 /* Sarabun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447727352A717D71002F6991 /* Sarabun-Medium.ttf */; };
+		447727372A717D71002F6991 /* Sarabun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447727352A717D71002F6991 /* Sarabun-Medium.ttf */; };
+		447727382A717D71002F6991 /* Sarabun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447727352A717D71002F6991 /* Sarabun-Medium.ttf */; };
 		447D77372A30BDCE00C0EA40 /* ItemTitleLocationDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D77352A30BDCE00C0EA40 /* ItemTitleLocationDetailCell.swift */; };
 		447D77382A30BDCE00C0EA40 /* ItemTitleLocationDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447D77362A30BDCE00C0EA40 /* ItemTitleLocationDetailCell.xib */; };
 		447D77402A31827400C0EA40 /* Sarabun-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D773F2A31827400C0EA40 /* Sarabun-Bold.ttf */; };
 		447D77412A31827400C0EA40 /* Sarabun-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D773F2A31827400C0EA40 /* Sarabun-Bold.ttf */; };
 		447D77422A31827400C0EA40 /* Sarabun-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D773F2A31827400C0EA40 /* Sarabun-Bold.ttf */; };
-		447D77442A31828000C0EA40 /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D77432A31828000C0EA40 /* Sarabun-Regular.ttf */; };
-		447D77452A31828000C0EA40 /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D77432A31828000C0EA40 /* Sarabun-Regular.ttf */; };
-		447D77462A31828000C0EA40 /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D77432A31828000C0EA40 /* Sarabun-Regular.ttf */; };
-		447D77482A31828E00C0EA40 /* Sarabun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D77472A31828E00C0EA40 /* Sarabun-Medium.ttf */; };
-		447D77492A31828E00C0EA40 /* Sarabun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D77472A31828E00C0EA40 /* Sarabun-Medium.ttf */; };
-		447D774A2A31828E00C0EA40 /* Sarabun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D77472A31828E00C0EA40 /* Sarabun-Medium.ttf */; };
 		447D774E2A3188A000C0EA40 /* ItemLabelTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D774C2A3188A000C0EA40 /* ItemLabelTitleCell.swift */; };
 		447D774F2A3188A000C0EA40 /* ItemLabelTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D774C2A3188A000C0EA40 /* ItemLabelTitleCell.swift */; };
 		447D77502A3188A000C0EA40 /* ItemLabelTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D774C2A3188A000C0EA40 /* ItemLabelTitleCell.swift */; };
@@ -50,6 +52,22 @@
 		447D775E2A35E63A00C0EA40 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D775D2A35E63A00C0EA40 /* FilterViewController.swift */; };
 		447D775F2A35E63A00C0EA40 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D775D2A35E63A00C0EA40 /* FilterViewController.swift */; };
 		447D77602A35E63A00C0EA40 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D775D2A35E63A00C0EA40 /* FilterViewController.swift */; };
+		44C2D3BD2A79766000158965 /* ItemTitleSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D3BB2A79766000158965 /* ItemTitleSectionCell.swift */; };
+		44C2D3BE2A79766000158965 /* ItemTitleSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3BC2A79766000158965 /* ItemTitleSectionCell.xib */; };
+		44C2D3C22A797D4000158965 /* ItemDetailActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D3C02A797D4000158965 /* ItemDetailActivityCell.swift */; };
+		44C2D3C32A797D4000158965 /* ItemDetailActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3C12A797D4000158965 /* ItemDetailActivityCell.xib */; };
+		44C2D3C62A7981AC00158965 /* ItemActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D3C42A7981AC00158965 /* ItemActivityCell.swift */; };
+		44C2D3C72A7981AC00158965 /* ItemActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3C52A7981AC00158965 /* ItemActivityCell.xib */; };
+		44C2D3CB2A7A0DF700158965 /* StyleMap.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3CA2A7A0DF700158965 /* StyleMap.json */; };
+		44C2D3CF2A7A5D2A00158965 /* ItemTravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D3CD2A7A5D2A00158965 /* ItemTravelCell.swift */; };
+		44C2D3D02A7A5D2A00158965 /* ItemTravelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3CE2A7A5D2A00158965 /* ItemTravelCell.xib */; };
+		44C2D3D42A7A5E1900158965 /* ItemTravelDetailCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D3D22A7A5E1900158965 /* ItemTravelDetailCVCell.swift */; };
+		44C2D3D52A7A5E1900158965 /* ItemTravelDetailCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3D32A7A5E1900158965 /* ItemTravelDetailCVCell.xib */; };
+		44C2D3DD2A7A97C300158965 /* ItemImageCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D3DB2A7A97C300158965 /* ItemImageCVCell.swift */; };
+		44C2D3DE2A7A97C300158965 /* ItemImageCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3DC2A7A97C300158965 /* ItemImageCVCell.xib */; };
+		44C2D3E22A7A98A000158965 /* ItemImageLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2D3E02A7A98A000158965 /* ItemImageLocationCell.swift */; };
+		44C2D3E32A7A98A000158965 /* ItemImageLocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3E12A7A98A000158965 /* ItemImageLocationCell.xib */; };
+		44C2D3E52A7AA58900158965 /* Location.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C2D3E42A7AA58900158965 /* Location.json */; };
 		44D7AFB72A2B777D007FA480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7AFB62A2B777D007FA480 /* AppDelegate.swift */; };
 		44D7AFB92A2B777D007FA480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7AFB82A2B777D007FA480 /* SceneDelegate.swift */; };
 		44D7AFBB2A2B777D007FA480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7AFBA2A2B777D007FA480 /* ViewController.swift */; };
@@ -61,7 +79,6 @@
 		44D7AFDA2A2B777F007FA480 /* MuMu_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7AFD92A2B777F007FA480 /* MuMu_ProjectUITestsLaunchTests.swift */; };
 		44D7AFE72A2B91C3007FA480 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7AFE62A2B91C3007FA480 /* MapViewController.swift */; };
 		44D7AFEB2A2BB4AE007FA480 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7AFEA2A2BB4AE007FA480 /* LocationDetailViewController.swift */; };
-		44D7AFED2A2C9A59007FA480 /* ImageHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7AFEC2A2C9A59007FA480 /* ImageHeaderCollectionViewCell.swift */; };
 		B5EF3B1A3D885233B330293D /* Pods_MuMu_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A93703B6E19C4C44FD4400 /* Pods_MuMu_ProjectTests.framework */; };
 		E20568B6EEE1992C80BD2C34 /* Pods_MuMu_Project_MuMu_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B791ADBC0AD537820B7F6F /* Pods_MuMu_Project_MuMu_ProjectUITests.framework */; };
 /* End PBXBuildFile section */
@@ -101,16 +118,32 @@
 		44751CB12A5738CA00FBE308 /* ItemRememberCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemRememberCell.xib; sourceTree = "<group>"; };
 		44751CB42A573C2600FBE308 /* ItemMoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMoreCell.swift; sourceTree = "<group>"; };
 		44751CB52A573C2600FBE308 /* ItemMoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemMoreCell.xib; sourceTree = "<group>"; };
+		447727312A717D5A002F6991 /* Sarabun-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sarabun-Regular.ttf"; path = "../../../Downloads/Sarabun/Sarabun-Regular.ttf"; sourceTree = "<group>"; };
+		447727352A717D71002F6991 /* Sarabun-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sarabun-Medium.ttf"; path = "../../../Downloads/Sarabun/Sarabun-Medium.ttf"; sourceTree = "<group>"; };
 		447D77352A30BDCE00C0EA40 /* ItemTitleLocationDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTitleLocationDetailCell.swift; sourceTree = "<group>"; };
 		447D77362A30BDCE00C0EA40 /* ItemTitleLocationDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTitleLocationDetailCell.xib; sourceTree = "<group>"; };
 		447D773F2A31827400C0EA40 /* Sarabun-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sarabun-Bold.ttf"; sourceTree = "<group>"; };
-		447D77432A31828000C0EA40 /* Sarabun-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sarabun-Regular.ttf"; path = "../../../../../Downloads/Sarabun/Sarabun-Regular.ttf"; sourceTree = "<group>"; };
-		447D77472A31828E00C0EA40 /* Sarabun-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sarabun-Medium.ttf"; path = "../../../../../Downloads/Sarabun/Sarabun-Medium.ttf"; sourceTree = "<group>"; };
 		447D774C2A3188A000C0EA40 /* ItemLabelTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLabelTitleCell.swift; sourceTree = "<group>"; };
 		447D774D2A3188A000C0EA40 /* ItemLabelTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemLabelTitleCell.xib; sourceTree = "<group>"; };
 		447D77552A3189B100C0EA40 /* ItemLabelDatailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLabelDatailCell.swift; sourceTree = "<group>"; };
 		447D77562A3189B100C0EA40 /* ItemLabelDatailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemLabelDatailCell.xib; sourceTree = "<group>"; };
 		447D775D2A35E63A00C0EA40 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		44C2D3BB2A79766000158965 /* ItemTitleSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTitleSectionCell.swift; sourceTree = "<group>"; };
+		44C2D3BC2A79766000158965 /* ItemTitleSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTitleSectionCell.xib; sourceTree = "<group>"; };
+		44C2D3C02A797D4000158965 /* ItemDetailActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailActivityCell.swift; sourceTree = "<group>"; };
+		44C2D3C12A797D4000158965 /* ItemDetailActivityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemDetailActivityCell.xib; sourceTree = "<group>"; };
+		44C2D3C42A7981AC00158965 /* ItemActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemActivityCell.swift; sourceTree = "<group>"; };
+		44C2D3C52A7981AC00158965 /* ItemActivityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemActivityCell.xib; sourceTree = "<group>"; };
+		44C2D3CA2A7A0DF700158965 /* StyleMap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StyleMap.json; sourceTree = "<group>"; };
+		44C2D3CD2A7A5D2A00158965 /* ItemTravelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTravelCell.swift; sourceTree = "<group>"; };
+		44C2D3CE2A7A5D2A00158965 /* ItemTravelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTravelCell.xib; sourceTree = "<group>"; };
+		44C2D3D22A7A5E1900158965 /* ItemTravelDetailCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTravelDetailCVCell.swift; sourceTree = "<group>"; };
+		44C2D3D32A7A5E1900158965 /* ItemTravelDetailCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTravelDetailCVCell.xib; sourceTree = "<group>"; };
+		44C2D3DB2A7A97C300158965 /* ItemImageCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemImageCVCell.swift; sourceTree = "<group>"; };
+		44C2D3DC2A7A97C300158965 /* ItemImageCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemImageCVCell.xib; sourceTree = "<group>"; };
+		44C2D3E02A7A98A000158965 /* ItemImageLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemImageLocationCell.swift; sourceTree = "<group>"; };
+		44C2D3E12A7A98A000158965 /* ItemImageLocationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemImageLocationCell.xib; sourceTree = "<group>"; };
+		44C2D3E42A7AA58900158965 /* Location.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Location.json; sourceTree = "<group>"; };
 		44D7AFB32A2B777D007FA480 /* MuMu-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MuMu-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D7AFB62A2B777D007FA480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D7AFB82A2B777D007FA480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,7 +159,6 @@
 		44D7AFD92A2B777F007FA480 /* MuMu_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuMu_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		44D7AFE62A2B91C3007FA480 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		44D7AFEA2A2BB4AE007FA480 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
-		44D7AFEC2A2C9A59007FA480 /* ImageHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 		4C5DAC92CE81BC33639B809D /* Pods_MuMu_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuMu_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		739E9968B4B5BE29ECFC4F94 /* Pods-MuMu-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuMu-Project.debug.xcconfig"; path = "Target Support Files/Pods-MuMu-Project/Pods-MuMu-Project.debug.xcconfig"; sourceTree = "<group>"; };
 		7B483E97E41D0EE4665A40F8 /* Pods-MuMu-ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuMu-ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-MuMu-ProjectTests/Pods-MuMu-ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447727302A717A61002F6991 /* Pods_MuMu_Project_MuMu_ProjectUITests.framework in Frameworks */,
 				3193A86AD50A7677217782EE /* Pods_MuMu_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4477272F2A717A60002F6991 /* Pods_MuMu_Project_MuMu_ProjectUITests.framework in Frameworks */,
 				B5EF3B1A3D885233B330293D /* Pods_MuMu_ProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,10 +235,13 @@
 			isa = PBXGroup;
 			children = (
 				44D7AFEA2A2BB4AE007FA480 /* LocationDetailViewController.swift */,
-				44D7AFEC2A2C9A59007FA480 /* ImageHeaderCollectionViewCell.swift */,
 				447D774B2A31880500C0EA40 /* ItemLabelTitleCell */,
 				447D77392A30BDD700C0EA40 /* ItemTitleLocationDetailCell */,
 				447D77542A31899000C0EA40 /* ItemLabelDatailCell */,
+				44C2D3BF2A79766900158965 /* ItemTitleSectionCell */,
+				44C2D3CC2A7A5CC800158965 /* ItemActivityCell */,
+				44C2D3D12A7A5D5900158965 /* ItemTravelCell */,
+				44C2D3DF2A7A97CB00158965 /* ItemImageCVCell */,
 			);
 			path = LocationDetail;
 			sourceTree = "<group>";
@@ -222,8 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				447D773F2A31827400C0EA40 /* Sarabun-Bold.ttf */,
-				447D77432A31828000C0EA40 /* Sarabun-Regular.ttf */,
-				447D77472A31828E00C0EA40 /* Sarabun-Medium.ttf */,
+				447727312A717D5A002F6991 /* Sarabun-Regular.ttf */,
+				447727352A717D71002F6991 /* Sarabun-Medium.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -244,6 +281,48 @@
 				447D77562A3189B100C0EA40 /* ItemLabelDatailCell.xib */,
 			);
 			name = ItemLabelDatailCell;
+			sourceTree = "<group>";
+		};
+		44C2D3BF2A79766900158965 /* ItemTitleSectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				44C2D3BB2A79766000158965 /* ItemTitleSectionCell.swift */,
+				44C2D3BC2A79766000158965 /* ItemTitleSectionCell.xib */,
+			);
+			path = ItemTitleSectionCell;
+			sourceTree = "<group>";
+		};
+		44C2D3CC2A7A5CC800158965 /* ItemActivityCell */ = {
+			isa = PBXGroup;
+			children = (
+				44C2D3C02A797D4000158965 /* ItemDetailActivityCell.swift */,
+				44C2D3C12A797D4000158965 /* ItemDetailActivityCell.xib */,
+				44C2D3C42A7981AC00158965 /* ItemActivityCell.swift */,
+				44C2D3C52A7981AC00158965 /* ItemActivityCell.xib */,
+			);
+			path = ItemActivityCell;
+			sourceTree = "<group>";
+		};
+		44C2D3D12A7A5D5900158965 /* ItemTravelCell */ = {
+			isa = PBXGroup;
+			children = (
+				44C2D3CD2A7A5D2A00158965 /* ItemTravelCell.swift */,
+				44C2D3CE2A7A5D2A00158965 /* ItemTravelCell.xib */,
+				44C2D3D22A7A5E1900158965 /* ItemTravelDetailCVCell.swift */,
+				44C2D3D32A7A5E1900158965 /* ItemTravelDetailCVCell.xib */,
+			);
+			path = ItemTravelCell;
+			sourceTree = "<group>";
+		};
+		44C2D3DF2A7A97CB00158965 /* ItemImageCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				44C2D3DB2A7A97C300158965 /* ItemImageCVCell.swift */,
+				44C2D3DC2A7A97C300158965 /* ItemImageCVCell.xib */,
+				44C2D3E02A7A98A000158965 /* ItemImageLocationCell.swift */,
+				44C2D3E12A7A98A000158965 /* ItemImageLocationCell.xib */,
+			);
+			path = ItemImageCVCell;
 			sourceTree = "<group>";
 		};
 		44D7AFAA2A2B777D007FA480 = {
@@ -280,6 +359,8 @@
 				44D7AFC12A2B777F007FA480 /* LaunchScreen.storyboard */,
 				44D7AFC42A2B777F007FA480 /* Info.plist */,
 				44D7AFE62A2B91C3007FA480 /* MapViewController.swift */,
+				44C2D3CA2A7A0DF700158965 /* StyleMap.json */,
+				44C2D3E42A7AA58900158965 /* Location.json */,
 				447D77342A30BD2500C0EA40 /* LocationDetail */,
 				44751C9B2A5717C600FBE308 /* Filters */,
 			);
@@ -435,19 +516,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447D77442A31828000C0EA40 /* Sarabun-Regular.ttf in Resources */,
 				44751CAF2A57352D00FBE308 /* ItemBirthDayCell.xib in Resources */,
+				44C2D3C72A7981AC00158965 /* ItemActivityCell.xib in Resources */,
+				44C2D3BE2A79766000158965 /* ItemTitleSectionCell.xib in Resources */,
 				447D77512A3188A000C0EA40 /* ItemLabelTitleCell.xib in Resources */,
+				44C2D3D02A7A5D2A00158965 /* ItemTravelCell.xib in Resources */,
 				44751CB32A5738CA00FBE308 /* ItemRememberCell.xib in Resources */,
+				44C2D3C32A797D4000158965 /* ItemDetailActivityCell.xib in Resources */,
+				44C2D3E52A7AA58900158965 /* Location.json in Resources */,
+				44C2D3D52A7A5E1900158965 /* ItemTravelDetailCVCell.xib in Resources */,
 				44751CA72A57303100FBE308 /* ItemNameTextFieldCell.xib in Resources */,
 				44751CB72A573C2600FBE308 /* ItemMoreCell.xib in Resources */,
 				447D775A2A3189B100C0EA40 /* ItemLabelDatailCell.xib in Resources */,
 				44751C9F2A5726ED00FBE308 /* ItemSliderCell.xib in Resources */,
 				44751CA32A572E0C00FBE308 /* ItemTitleLabelCell.xib in Resources */,
-				447D77482A31828E00C0EA40 /* Sarabun-Medium.ttf in Resources */,
 				44D7AFC32A2B777F007FA480 /* LaunchScreen.storyboard in Resources */,
 				447D77382A30BDCE00C0EA40 /* ItemTitleLocationDetailCell.xib in Resources */,
+				44C2D3DE2A7A97C300158965 /* ItemImageCVCell.xib in Resources */,
+				447727322A717D5A002F6991 /* Sarabun-Regular.ttf in Resources */,
+				44C2D3E32A7A98A000158965 /* ItemImageLocationCell.xib in Resources */,
+				44C2D3CB2A7A0DF700158965 /* StyleMap.json in Resources */,
 				44D7AFC02A2B777F007FA480 /* Assets.xcassets in Resources */,
+				447727362A717D71002F6991 /* Sarabun-Medium.ttf in Resources */,
 				44751CAB2A57339500FBE308 /* ItemSectionCell.xib in Resources */,
 				44751C9A2A5717A800FBE308 /* ItemSelectionCell.xib in Resources */,
 				44D7AFBE2A2B777D007FA480 /* Main.storyboard in Resources */,
@@ -459,10 +549,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447D77492A31828E00C0EA40 /* Sarabun-Medium.ttf in Resources */,
+				447727332A717D5A002F6991 /* Sarabun-Regular.ttf in Resources */,
 				447D77522A3188A000C0EA40 /* ItemLabelTitleCell.xib in Resources */,
-				447D77452A31828000C0EA40 /* Sarabun-Regular.ttf in Resources */,
 				447D775B2A3189B100C0EA40 /* ItemLabelDatailCell.xib in Resources */,
+				447727372A717D71002F6991 /* Sarabun-Medium.ttf in Resources */,
 				447D77412A31827400C0EA40 /* Sarabun-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,10 +561,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447D774A2A31828E00C0EA40 /* Sarabun-Medium.ttf in Resources */,
+				447727342A717D5A002F6991 /* Sarabun-Regular.ttf in Resources */,
 				447D77532A3188A000C0EA40 /* ItemLabelTitleCell.xib in Resources */,
-				447D77462A31828000C0EA40 /* Sarabun-Regular.ttf in Resources */,
 				447D775C2A3189B100C0EA40 /* ItemLabelDatailCell.xib in Resources */,
+				447727382A717D71002F6991 /* Sarabun-Medium.ttf in Resources */,
 				447D77422A31827400C0EA40 /* Sarabun-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,19 +680,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				447D77572A3189B100C0EA40 /* ItemLabelDatailCell.swift in Sources */,
+				44C2D3C62A7981AC00158965 /* ItemActivityCell.swift in Sources */,
+				44C2D3D42A7A5E1900158965 /* ItemTravelDetailCVCell.swift in Sources */,
 				44751CB62A573C2600FBE308 /* ItemMoreCell.swift in Sources */,
 				44751C9E2A5726ED00FBE308 /* ItemSliderCell.swift in Sources */,
+				44C2D3CF2A7A5D2A00158965 /* ItemTravelCell.swift in Sources */,
 				44D7AFBB2A2B777D007FA480 /* ViewController.swift in Sources */,
-				44D7AFED2A2C9A59007FA480 /* ImageHeaderCollectionViewCell.swift in Sources */,
 				44751CB22A5738CA00FBE308 /* ItemRememberCell.swift in Sources */,
 				44D7AFB72A2B777D007FA480 /* AppDelegate.swift in Sources */,
 				44751CAA2A57339500FBE308 /* ItemSectionCell.swift in Sources */,
 				44751CA62A57303100FBE308 /* ItemNameTextFieldCell.swift in Sources */,
 				44751CAE2A57352D00FBE308 /* ItemBirthDayCell.swift in Sources */,
+				44C2D3DD2A7A97C300158965 /* ItemImageCVCell.swift in Sources */,
 				44751C992A5717A800FBE308 /* ItemSelectionCell.swift in Sources */,
 				447D775E2A35E63A00C0EA40 /* FilterViewController.swift in Sources */,
 				44D7AFB92A2B777D007FA480 /* SceneDelegate.swift in Sources */,
+				44C2D3C22A797D4000158965 /* ItemDetailActivityCell.swift in Sources */,
+				44C2D3E22A7A98A000158965 /* ItemImageLocationCell.swift in Sources */,
 				44D7AFE72A2B91C3007FA480 /* MapViewController.swift in Sources */,
+				44C2D3BD2A79766000158965 /* ItemTitleSectionCell.swift in Sources */,
 				447D774E2A3188A000C0EA40 /* ItemLabelTitleCell.swift in Sources */,
 				44D7AFEB2A2BB4AE007FA480 /* LocationDetailViewController.swift in Sources */,
 				44751CA22A572E0C00FBE308 /* ItemTitleLabelCell.swift in Sources */,
